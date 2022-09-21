@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- <link rel="stylesheet" href="/CSS/themeTwo.css" id="light" title="Light" />
+    <link rel="stylesheet" href="/CSS/themeThree.css" id="dark" title="dark" /> -->
+    <link rel="stylesheet" href="/CSS/style.css" id="main" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="toggle">
+        <h2>Calc</h2>
+        <div class="switch">
+          <ul>
+            <li id="one">1</li>
+            <li id="two">2</li>
+            <li id="three">3</li>
+          </ul>
+          <div class="rectanlge">
+            <button class="circle" id="circle"></button>
+          </div>
+        </div>
+      </div>
+      <div class="screen">
+        <div data-first-number class="first-number"></div>
+        <div data-second-number class="second-number"></div>
+      </div>
+      <div class="keypad">
+        <button data-value class="btn">7</button>
+        <button data-value class="btn">8</button>
+        <button data-value class="btn">9</button>
+        <button data-del class="btn btn-del">DEL</button>
+        <button data-value class="btn">4</button>
+        <button data-value class="btn">5</button>
+        <button data-value class="btn">6</button>
+        <button data-operations class="btn">+</button>
+        <button data-value class="btn">1</button>
+        <button data-value class="btn">2</button>
+        <button data-value class="btn">3</button>
+        <button data-operations class="btn">-</button>
+        <button data-value class="btn">.</button>
+        <button data-value class="btn">0</button>
+        <button data-operations class="btn">/</button>
+        <button data-operations class="btn">x</button>
+        <button data-res class="btn btn-reset">RESET</button>
+        <button data-equals class="btn btn-equals">=</button>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">NikaA3</a>.
+      </div>
+      <!-- <script src="script.js"></script> -->
+      <script src="app/index.js" type="module"></script>
+    </div>
+  </body>
+</html>
